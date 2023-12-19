@@ -1,4 +1,4 @@
 #!/bin/bash
-# This is comment.
+# This is comment
 
-echo "Hello Shell Script"
+echo "Hello Shell Script Start"
