@@ -4,4 +4,4 @@
 
 echo " Hello- Shell Scripting starts"
 
-Update the script and try the complete flow from source to github to server instance.
+echo "Update the script and try the complete flow from source to github to server instance."
