@@ -13,3 +13,5 @@ else
     echo "The user is a root user. The ID of the user is $ID"
 
 fi
+
+yum install mysql -y
