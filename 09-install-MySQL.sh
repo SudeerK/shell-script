@@ -19,8 +19,18 @@ fi
 
     if [ $? -ne 0 ]
     then
-        echo " MySQL installation is failed"
+        echo " ERROR: MySQL installation is failed"
         exit 1
     else
         echo "MySQL installation is success"
+    fi
+
+    yum install git123 -y
+
+    if [ $? -ne 0 ]
+    then
+        echo " ERROR: GIT installation is failed"
+        exit 1
+    else
+        echo "GIT installation is success"
     fi
