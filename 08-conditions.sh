@@ -3,7 +3,7 @@
 echo "Enter the Number:"
 read Number
 
-if [$Number>100]
+if [$Number -gt 100]
 then
     echo " Number is greater than 100"
 else
