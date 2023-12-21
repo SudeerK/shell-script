@@ -15,7 +15,7 @@ else
 
 fi
 
-    yum install mysql -y
+    yum install mysql123 -y
 
     if [ $? -ne 0 ]
     then
