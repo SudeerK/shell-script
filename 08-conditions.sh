@@ -4,8 +4,8 @@ echo "Enter the Number:"
 read Number
 
 if ($Number>100)
-{
+then
     echo " Number is greater than 100"
-    else
+else
     echo "Number is less than 100"
-}
+fi
