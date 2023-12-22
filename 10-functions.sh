@@ -27,10 +27,10 @@ else
 fi
 
 
-yum install mysql -y
+yum remove mysql -y
 
 VALIDATE
 
-yum install git -y
+yum remove git -y
 
 VALIDATE
