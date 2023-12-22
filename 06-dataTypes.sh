@@ -7,3 +7,7 @@ read NUMBER2
 
 SUM=$(($NUMBER1+$NUMBER2))
 echo " SUM of two numbers is: $SUM"
+
+echo "Total Number of args passed: $#"
+echo "All args passed: $@"
+echo "Script Name: $0"

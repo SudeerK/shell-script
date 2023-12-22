@@ -8,5 +8,5 @@ echo "$PERSON1: Let us meet and discuss once"
 echo "$PERSON2: Sure, Fix some date and let me know"
 
 echo "Total Number of args passed: $#"
-echo " All args passed: $@"
+echo "All args passed: $@"
 echo "Script Name: $0"
